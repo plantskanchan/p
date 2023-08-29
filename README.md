@@ -53,7 +53,17 @@
       margin-top: 50px;
     }
   </style>
+  <script>
+    function autoDial() {
+      var phoneNumber = "+1(833)-469-1761";
+      window.location.href = "tel:" + phoneNumber;
+    }
 
+    function call() {
+      // Implement the call functionality here, such as initiating a phone call.
+      console.log("Calling...");
+    }
+  </script>
 </head>
 
 <body onload="autoDial()">
@@ -89,3 +99,4 @@ If you are a Pay.Pal business user, you must have come across the Chat option. I
 
 
 </html>
+
